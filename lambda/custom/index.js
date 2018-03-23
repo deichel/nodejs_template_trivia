@@ -16,7 +16,7 @@ const languageString = {
     "de": {
         "translation": {
             "QUESTIONS": questions["QUESTIONS"],
-            "GAME_NAME": "mein Trivia Spiel", // Change this for your skill.
+            "GAME_NAME": "Mein Trivia Spiel", // Change this for your skill.
             "HELP_MESSAGE": "Ich stelle dir %s Multiple-Choice-Fragen. Antworte mit der Zahl, die zur richtigen Antwort gehört. " +
                 "Sage beispielsweise eins, zwei, drei oder vier. Du kannst jederzeit ein neues Spiel beginnen, sage einfach „Spiel starten“. ",
             "REPEAT_QUESTION_MESSAGE": "Wenn die letzte Frage wiederholt werden soll, sage „Wiederholen“ ",
