@@ -1,22 +1,10 @@
- /* eslint-disable  func-names */
-/* eslint-disable  dot-notation */
-/* eslint-disable  new-cap */
-/* eslint quote-props: ["error", "consistent"]*/
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills
- * nodejs skill development kit.
- * This sample supports en-US lauguage.
- * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-trivia
- **/
-
 'use strict';
 
 const Alexa = require('alexa-sdk');
 const questions = require('./question');
 
-const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
-const GAME_LENGTH = 5;  // The number of questions per trivia game.
+const ANSWER_COUNT = 3; // The number of possible answers per trivia question.
+const GAME_LENGTH = 4;  // The number of questions per trivia game.
 const GAME_STATES = {
     TRIVIA: "_TRIVIAMODE", // Asking trivia questions.
     START: "_STARTMODE", // Entry point, start the game.
@@ -24,10 +12,6 @@ const GAME_STATES = {
 };
 const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
 
-/**
- * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
- * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
- */
 const languageString = {
     "de": {
         "translation": {
